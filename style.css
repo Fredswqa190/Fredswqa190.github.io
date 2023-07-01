@@ -11,6 +11,15 @@
     color: #222;
     background: #f7f5f0;
   }
+
+  .main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #2f9abb, #13EF5C);
+  }
+
   /* Link Styles */
   
   a {
@@ -32,12 +41,16 @@
     text-align: center;
   }
   .nav {
+    width: 80%;
+    position: sticky;
     display: flex;
     justify-content: space-around;
     font-weight: 700;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0;
+    z-index: 1;
+    align-items: center;
   }
   
   .nav .name {
@@ -55,32 +68,6 @@
     color: white
   }
   
-  header {
-    text-align: center;
-    background: url('images/ClevelandSkylineNeo-Rouge-copy.jpg') no-repeat ;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 60px;
-  }
-  header {
-    line-height: 1.5;
-  }
-  header .profile-image {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid black;
-    transition: all .5s;
-  }
-  header .profile-image:hover {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-          -ms-filter: "FlipH";
-  }
   .card .thumbnail{
     width:100%;
   }
@@ -213,3 +200,49 @@
   
   }
   
+.pfp{
+  flex-basis: 20%;
+}
+.pfp img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: left;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+
+#circle{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: #ccc;
+}
