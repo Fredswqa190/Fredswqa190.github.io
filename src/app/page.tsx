@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
     <head>
-      <title>Fred&apos;s GitHub Pages site!</title>
+      <title>Fred&apos;s Site!</title>
     </head>
     <body className="h-screen bg-gradient-to-b from-cyan-600 to-green-400">
     <nav className="sticky flex items-center justify-between flex-wrap bg-gradient-to-r from-green-400 to-blue-500 p-6 h-20 shadow-2xl">
@@ -14,11 +14,10 @@ export default function Home() {
           <path
             fill="currentColor"
             >
-
             </path>
         </svg>
         <span className="text-xl font-bold uppercase tracking-wide">
-          Fred&apos;s GitHub Pages site!
+          Fred&apos;s Site!
         </span>
       </a>
       <button
@@ -43,16 +42,16 @@ export default function Home() {
         <a href="https://cultists.network/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Blog</a>
       </li>
       <li>
-        <a href="/projects.tsx" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Projects</a>
+        <a href="/projects" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Projects</a>
       </li>
       <li>
-        <a href="/research.tsx" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Research</a>
+        <a href="/research" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Research</a>
       </li>
       <li>
-        <a href="/about.tsx" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Me</a>
+        <a href="/about" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Me</a>
       </li>
       <li>
-        <a href="/contact.tsx" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact</a>
+        <a href="/contact" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact</a>
       </li>
         </ul>
         </div>
