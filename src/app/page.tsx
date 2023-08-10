@@ -88,25 +88,25 @@ export default function Home() {
             Blog: cultists.network
           </a>
           <a
-            href="/projects.tsx"
+            href="/projects"
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
           >
             Projects
           </a>
           <a
-            href="/research.tsx"
+            href="/research"
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
           >
             Research
           </a>
           <a
-            href="/about.tsx"
+            href="/about"
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
           >
             About Me
           </a>
           <a
-            href="/contact.tsx"
+            href="/contact"
             className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
           >
             Contact
