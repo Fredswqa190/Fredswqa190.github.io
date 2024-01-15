@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function Contact() {
   return (
+    <main className="relative h-screen bg-gradient-to-b from-cyan-600 to-green-400 container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
+    
     <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500">
-      <h1 className="text-2xl font-bold dark:text-gray-50">Send a message</h1>
+      <h1 className="text-2xl font-bold dark:text-gray-50">Send me a message!</h1>
 
       <label htmlFor="fullname" className="text-gray-500 font-light mt-8 dark:text-gray-50">
         Full name
@@ -44,5 +46,7 @@ export default function Contact() {
         </button>
       </div>
     </form>
+    </main>
+
   )
 }
