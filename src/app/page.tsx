@@ -17,8 +17,11 @@ export default function Home() {
     </div>
     <div className="absolute bottom-0 px-4 py-3 bg-gray-500/50 w-full">
       <h1 className="text-6xl font-bold text-white text-center">
-        Welcome to my GitHub Pages site!
+        Hi, I&apos;m Fred!
       </h1>
+      <h2 className="text-6xl font-bold text-white text-center">
+        Welcome to my GitHub Pages site!
+      </h2>
       <h4 className="text-white text-center mt-2">
         This is a work in progress, so please be patient!
       </h4>

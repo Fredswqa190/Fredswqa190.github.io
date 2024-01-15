@@ -10,6 +10,7 @@ import sidePic1 from '../../../public/TechRisePictures/IMG_20230425_144354.jpg';
 import rearPic from '../../../public/TechRisePictures/IMG_20230425_144357.jpg';
 import sidePic2 from '../../../public/TechRisePictures/IMG_20230425_144412.jpg';
 import angledPic from '../../../public/TechRisePictures/IMG_20230425_144420.jpg';
+import internalPic from '../../../public/TechRisePictures/IMG_20230810_120051.jpg';
 
 export default function Projects() {
   return (
@@ -46,6 +47,9 @@ export default function Projects() {
   </div>
   <div className="relative h-60 w-full">
     <Image src={angledPic} layout="fill" objectFit="contain" alt="Angled" />
+  </div>
+  <div className="relative h-60 w-full">
+    <Image src={internalPic} layout="fill" objectFit="contain" alt="Angled" />
   </div>
 </div>
 </div>
