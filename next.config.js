@@ -1,6 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-trailingSlash: true,
-output: 'export',
+    trailingSlash: true,
+    output: 'export',
 }
-module.exports = nextConfig
+
+/*async redirects() {
+      return [
+        {
+          source: '/about',
+          destination: '/',
+          permanent: true,
+        },
+      ]
+    },*/
+
+    module.exports = {
+      images: {
+          unoptimized: true
+      }
+  }
