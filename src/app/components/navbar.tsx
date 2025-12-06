@@ -41,12 +41,6 @@ export default function Navbar() {
                         Linktree
                     </a>
                     <a
-                        href="https://github.com/Fredswqa190/Fredswqa190.github.io/blob/main/resume.pdf?raw=true"
-                        className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
-                    >
-                        Resume
-                    </a>
-                    <a
                         href="https://cultists.network/"
                         className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white "
                     >
